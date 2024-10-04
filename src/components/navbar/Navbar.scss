@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    width: 250px;
+    text-transform: none;
+  }
+}
+.active-link {
+  text-decoration: underline;
+}
