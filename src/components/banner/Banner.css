@@ -1,0 +1,37 @@
+.banner {
+  position: relative;
+  width: 100%;
+}
+.banner__img {
+  height: 111px;
+  width: 100%;
+  filter: brightness(40%);
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (min-width: 992px) {
+  .banner__img {
+    height: 223px;
+    border-radius: 25px;
+  }
+}
+.banner__text {
+  position: absolute;
+  top: 0px;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  padding-left: 20px;
+  width: 210px;
+  line-height: 1;
+}
+@media screen and (min-width: 992px) {
+  .banner__text {
+    font-size: 48px;
+    text-align: center;
+    top: 30px;
+    width: 100%;
+    padding-left: 0;
+  }
+}/*# sourceMappingURL=Banner.css.map */

@@ -4,6 +4,11 @@
   padding: 20px;
   align-items: center;
 }
+@media screen and (min-width: 992px) {
+  .header {
+    padding: 40px 5%;
+  }
+}
 .header__logo {
   width: 145px;
   height: 46.88px;
