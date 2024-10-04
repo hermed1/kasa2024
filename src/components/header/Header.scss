@@ -4,7 +4,12 @@
   padding: 20px;
   align-items: center;
   &__logo {
-    width: 150px;
+    width: 145px;
+    height: 46.88px;
+    @media screen and (min-width: 992px) {
+      width: 210px;
+      height: 68px;
+    }
     &__container {
       width: 100%;
     }
