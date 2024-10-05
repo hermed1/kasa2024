@@ -1,0 +1,14 @@
+.cards__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+}
+@media screen and (min-width: 992px) {
+  .cards__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    padding: 4%;
+  }
+}/*# sourceMappingURL=cardsContainer.css.map */
