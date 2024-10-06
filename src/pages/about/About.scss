@@ -1,0 +1,26 @@
+.about {
+  padding: 0 20px;
+  @media screen and (min-width: 992px) {
+    padding: 0 5%;
+  }
+  &__banner {
+    border-radius: 10px;
+    height: 111px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+    @media screen and (min-width: 992px) {
+      height: 223px;
+      border-radius: 25px;
+    }
+  }
+}
+.collapses__container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  @media screen and (min-width: 992px) {
+    margin-top: 40px;
+    padding: 0 10%;
+    margin-bottom: 50px;
+  }
+}
