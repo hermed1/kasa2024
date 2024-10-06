@@ -37,7 +37,7 @@ const Collapse = ({ title, content }) => {
       <button className='collapse__button' onClick={handleCollapse}>
         <p className='collapse__title'>{title}</p>
         <i
-          className={`fa-solid fa-chevron-up fa-xl collapse__icon ${
+          className={`fa-solid fa-chevron-up fa-lg collapse__icon ${
             isOpen ? 'collapse__icon--down' : 'collapse__icon--up'
           }`}
         ></i>
