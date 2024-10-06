@@ -1,1 +1,52 @@
-/*# sourceMappingURL=NotFound.css.map */
+.notFound__container {
+  display: flex;
+  flex-direction: column;
+}
+.notFound__404 {
+  font-weight: 700;
+  font-size: 96px;
+  color: #ff6060;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+@media screen and (min-width: 992px) {
+  .notFound__404 {
+    font-size: 288px;
+  }
+}
+.notFound__message {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ff6060;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 0;
+}
+@media screen and (min-width: 992px) {
+  .notFound__message {
+    font-size: 36px;
+    margin-bottom: 150px;
+  }
+}
+.notFound__link {
+  text-decoration: underline;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 100px;
+  white-space: normal;
+}
+@media screen and (min-width: 992px) {
+  .notFound__link {
+    font-size: 18px;
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mobile-line-break {
+    display: none;
+  }
+}/*# sourceMappingURL=NotFound.css.map */
