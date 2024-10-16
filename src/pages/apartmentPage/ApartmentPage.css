@@ -1,1 +1,138 @@
-/*# sourceMappingURL=ApartmentPage.css.map */
+.carousel__container {
+  margin-top: 20px;
+}
+
+.infos-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 992px) {
+  .infos-container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+}
+
+.rating__star--red {
+  color: #ff6060;
+  margin-right: 5px;
+}
+.rating__star--grey {
+  color: #e3e3e3;
+  margin-right: 5px;
+}
+.rating-and-host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 992px) {
+  .rating-and-host {
+    flex-direction: column-reverse;
+    margin-top: 7px;
+  }
+}
+
+.apartment {
+  padding: 0 20px;
+}
+@media screen and (min-width: 992px) {
+  .apartment {
+    padding: 0 5%;
+  }
+}
+.apartment__title {
+  color: #ff6060;
+  font-size: 18px;
+  font-weight: 500;
+  padding-right: 50px;
+  margin: 10px 0;
+}
+@media screen and (min-width: 992px) {
+  .apartment__title {
+    font-size: 36px;
+    margin-top: 0;
+  }
+}
+.apartment__location {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+@media screen and (min-width: 992px) {
+  .apartment__location {
+    font-size: 18px;
+  }
+}
+.apartment__tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 992px) {
+  .apartment__tags {
+    margin-top: 25px;
+  }
+}
+.apartment__tag {
+  color: white;
+  background-color: #ff6060;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 700;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 25px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 992px) {
+  .apartment__tag {
+    font-size: 14px;
+    padding: 5px 30px;
+  }
+}
+
+.host {
+  display: flex;
+  justify-content: space-between;
+}
+.host__name {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: #ff6060;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+@media screen and (min-width: 992px) {
+  .host__name {
+    font-size: 18px;
+  }
+}
+.host__first-name {
+  text-align: start;
+  margin: 0;
+  width: 100%;
+}
+.host__last-name {
+  text-align: end;
+  margin: 0;
+  width: 100%;
+}
+.host__pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+@media screen and (min-width: 992px) {
+  .host__pic {
+    width: 64px;
+    height: 64px;
+  }
+}/*# sourceMappingURL=ApartmentPage.css.map */

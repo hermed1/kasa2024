@@ -6,9 +6,13 @@ import { Link } from 'react-router-dom';
 
 const CardsContainer = () => {
   const [apartments, setApartments] = useState([]);
-
+  const getDatas =  () => {
+    fetch(datas)
+      .then(setApartments(datas))
+      .catch((error) => console.error(error));
+  };
   useEffect(() => {
-    setApartments(datas);
+    getDatas();
   }, []);
 
   return (

@@ -1,0 +1,55 @@
+.carousel {
+  position: relative;
+  height: 100%;
+}
+.carousel__arrow--right {
+  position: absolute;
+  right: 10px;
+  top: 126px;
+  cursor: pointer;
+  color: white;
+}
+@media screen and (min-width: 992px) {
+  .carousel__arrow--right {
+    top: 160px;
+  }
+}
+.carousel__arrow--left {
+  position: absolute;
+  left: 10px;
+  top: 126px;
+  cursor: pointer;
+  color: white;
+}
+@media screen and (min-width: 992px) {
+  .carousel__arrow--left {
+    top: 160px;
+  }
+}
+.carousel__image {
+  width: 100%;
+  height: 255px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (min-width: 992px) {
+  .carousel__image {
+    height: 415px;
+    border-radius: 25px;
+  }
+}
+.carousel__count {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  .carousel__count {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 49%;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}/*# sourceMappingURL=Carousel.css.map */

@@ -1,0 +1,47 @@
+.carousel {
+  position: relative;
+  height: 100%;
+
+  &__arrow--right {
+    position: absolute;
+    right: 10px;
+    top: 126px;
+    cursor: pointer;
+    color: white;
+    @media screen and (min-width: 992px) {
+      top: 160px;
+    }
+  }
+  &__arrow--left {
+    position: absolute;
+    left: 10px;
+    top: 126px;
+    cursor: pointer;
+    color: white;
+    @media screen and (min-width: 992px) {
+      top: 160px;
+    }
+  }
+  &__image {
+    width: 100%;
+    height: 255px;
+    border-radius: 10px;
+    object-fit: cover;
+    @media screen and (min-width: 992px) {
+      height: 415px;
+      border-radius: 25px;
+    }
+  }
+  &__count {
+    display: none;
+    @media screen and (min-width: 992px) {
+      display: block;
+      position: absolute;
+      bottom: 10px;
+      left: 49%;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
