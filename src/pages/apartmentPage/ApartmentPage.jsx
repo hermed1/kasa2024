@@ -8,6 +8,7 @@ import Collapse from '../../components/collapse/Collapse';
 const ApartmentPage = () => {
   const { id } = useParams();
   const [apartmentsList, setApartmentsList] = useState([]);
+  //objet vide fait que l'on ne passe pas dans le   if (!apartment)
   const [apartment, setApartment] = useState({});
   const getDatas = () => {
     fetch(datas)
@@ -33,6 +34,7 @@ const ApartmentPage = () => {
   const greyStars = new Array(5 - rating).fill(null);
 
   if (!apartment) {
+
     return <Navigate to='/404' />;
   }
   if (!apartment.id) {
