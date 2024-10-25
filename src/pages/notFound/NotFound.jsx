@@ -7,10 +7,11 @@ const NotFound = () => {
     <div className='notFound__container'>
       <p className='notFound__404'>404</p>
       <p className='notFound__message'>
-        Oups! La page que{' '}
+        Oups! La page que
         <span className='mobile-line-break'>
-          <br />{' '}
-        </span>{' '}
+          <br />
+        </span>
+        <span> </span>
         vous demandez n'existe pas.
       </p>
       <Link to='/' className='notFound__link'>

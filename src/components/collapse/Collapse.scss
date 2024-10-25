@@ -6,6 +6,11 @@
   @media screen and (min-width: 992px) {
     margin-bottom: 40px;
   }
+  &-apartment-page {
+    @media screen and (min-width: 992px) {
+      width: 48%;
+    }
+  }
 
   &__button {
     display: flex;
@@ -73,7 +78,6 @@
 
     &--open {
       max-height: 500px;
-      opacity: 1;
       transform: scaleY(1);
       opacity: 1;
       padding: 20px 25px;
